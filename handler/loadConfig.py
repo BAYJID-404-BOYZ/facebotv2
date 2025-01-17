@@ -5,12 +5,12 @@ async def loadConfig(botName=None):
   data = {
     "prefix": None,
     "botName": botName,
-    "owner": "Anonymous",
+    "owner": "BaYjid",
     "admin": [
-      61571117768115
+      100005193854879
     ]
   }
-  print(f"\033[97m⦿━━━━━━━━━━━━━━━⦿ \033[96mLoad Config \033[97m⦿━━━━━━━━━━━━━━━⦿")
+  print(f"\033[97m⦿━━━━━━━━━━━━━━━⦿ \033[96mBaYjid Load Config \033[97m⦿━━━━━━━━━━━━━━━⦿")
   try:
     config = json.load(open('config.json', 'r'))
   except FileNotFoundError:
